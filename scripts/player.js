@@ -99,7 +99,7 @@ window.onload = () => {
       setMusic();
       music.currentTime = 0;
       playlist[i].className += " active";
-      await delay(500);
+      await delay(1500);
       playMusic();
     });
   }
