@@ -44,7 +44,9 @@ body {
 }
 
 #music-player {
+  float: left;
   margin: 0 auto;
+  width: 55%;
 }
 
 #music-title {
@@ -76,6 +78,14 @@ body {
 
 #controls {
   text-align: center;
+}
+
+#music-collection {
+  float: left;
+  width: 25%;
+  padding: 2%;
+  margin-left: 10%;
+  border: 1px solid white;
 }
 
 .control-btn {

@@ -5,6 +5,7 @@
 <head>
   <link href="styles/style.css" rel="stylesheet">
   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title>AdotR</title>
 </head>
 
@@ -12,11 +13,14 @@
   <h1 id="main-title">Music Collection</h1>
   <h2 id="sub-title">email: adotryx@gmail.com</h2>
 
-  <hr>
-
   <audio src="" id="audio-source"></audio>
 
+  <hr><br>
+
+  <div class="container" style="overflow: auto;">
+
   <div id="music-player">
+    <br>
     <h3 id="music-title">Currently Playing: <span></span></h3>
     <p style="color: white; text-align: right;" id="duration">00:00 / 00:00</p>
     <div id="progress">
@@ -28,8 +32,6 @@
     </div>
   </div>
 
-  <br><hr>
-
   <div id="music-collection">
     <h3 style="color: white;">Playlist</h3>
     <p class="song-item">Lovesickness</p>
@@ -37,6 +39,8 @@
     <p class="song-item">A New Beginning</p>
     <p class="song-item">A Rocky Adventure</p>
     <p class="song-item">Reminiscence</p>
+  </div>
+
   </div>
 
   <script src="scripts/data.js"></script>
