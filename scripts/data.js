@@ -18,5 +18,9 @@ let songs = [
   {
     name: 'Reminiscence',
     path: 'assets/musics/song-4.mp3'
+  },
+  {
+    name: 'Fear',
+    path: 'assets/musics/song-5.mp3'
   }
 ]
