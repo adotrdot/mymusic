@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <link href="styles/style.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>AdotR</title>
+</head>
+
+<body>
+  <h1 id="main-title">Music Collection</h1>
+  <h2 id="sub-title">email: adotryx@gmail.com</h2>
+
+  <hr>
+
+  <audio src="" id="audio-source"></audio>
+
+  <div id="music-player">
+    <h3 id="music-title">Currently Playing: <span></span></h3>
+    <p style="color: white; text-align: right;" id="duration">00:00 / 00:00</p>
+    <div id="progress">
+      <div id="bar"></div>
+    </div>
+    <div id="controls">
+      <button id="play-btn" class="control-btn"><b>Play</b></button>
+      <button id="pause-btn" class="control-btn"><b>Pause</b></button>
+    </div>
+  </div>
+
+  <br><hr>
+
+  <div id="music-collection">
+    <h3 style="color: white;">Playlist</h3>
+    <p class="song-item">Lovesickness</p>
+    <p class="song-item">Even If We're Far Apart</p>
+    <p class="song-item">A New Beginning</p>
+    <p class="song-item">A Rocky Adventure</p>
+    <p class="song-item">Reminiscence</p>
+  </div>
+
+  <script src="scripts/data.js"></script>
+  <script src="scripts/player.js"></script>
+</body>
+
+</html>

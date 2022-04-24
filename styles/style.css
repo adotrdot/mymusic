@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Monoton;
+    src: url("../styles/Monoton-Regular.ttf");
+}
+
+@font-face {
+    font-family: SmoochSans;
+    src: url("../styles/SmoochSans-Regular.ttf");
+}
+
+html {
+    font-family: SmoochSans;
+    font-size: 20px;
+    background-color: #141414;
+}
+
+body {
+    background-color: black;
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 50px 20px 50px;
+    border: 5px solid #ddd;
+}
+
+#main-title {
+  font-family: Monoton;
+  color: white;
+  text-align: center;
+  --background-color: #333;
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-size: 40px;
+}
+
+#sub-title {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
+
+#audio-source {
+  background-color: white;
+}
+
+#music-player {
+  margin: 0 auto;
+}
+
+#music-title {
+  color: white;
+}
+
+#music-title span {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+#music-title span:empty {
+  opacity: 0;
+}
+
+#progress {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 20px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#bar {
+  background-color: white;
+  height: 20px;
+  width: 0;
+}
+
+#controls {
+  text-align: center;
+}
+
+.control-btn {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  margin: 10px 5px;
+  padding: 10px 25px;
+  width: 20%;
+  transition: 0.5s;
+}
+
+.control-btn:hover {
+  color: #505050;
+}
+
+.control-btn:disabled {
+  background-color: #5b5b5b;
+  color: #989898;
+  cursor: default;
+}
+
+.control-btn:disabled:hover {
+  background-color: #5b5b5b;
+  color: #989898;
+}
+
+.song-item {
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  border-bottom-color: white;
+  color: white;
+  padding: 10px 0 10px 10px;
+  margin: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.song-item.active, .song-item:hover {
+  background-color: white;
+  color: black;
+}
+
+/*
+#controls {
+  width: 80px;
+  float: left;
+}
+
+#progress {
+  margin-left: 80px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#bar {
+  height: 20px;
+  background-color: green;
+  width: 0;
+}
+
+#play-btn {
+  background-color: red;
+  border-radius: 20px;
+}
+
+#play-btn:hover {
+  background-color: black;
+}
+
+#play-btn:active {
+  background-color: yellow;
+}
+*/
