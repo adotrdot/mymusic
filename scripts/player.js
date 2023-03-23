@@ -10,7 +10,7 @@ window.onload = () => {
   var progress = document.getElementById('progress');
   var bar = document.getElementById('bar');
   var currSong = 0;
-  var maxSong = 5;
+  var maxSong = 6;
   var musicDur;
   var currDur = "00:00";
 
