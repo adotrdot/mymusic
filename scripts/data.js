@@ -1,6 +1,6 @@
 let songs = [
   {
-    name: 'Lovesickness (romance, hopeful)',
+    name: 'Reminiscence (romance, sad)',
     path: 'assets/musics/song-0.mp3'
   },
   {
@@ -8,15 +8,15 @@ let songs = [
     path: 'assets/musics/song-1.mp3'
   },
   {
-    name: 'A New Beginning (hopeful, main menu theme)',
+    name: 'Lovesickness (romance, hopeful)',
     path: 'assets/musics/song-2.mp3'
   },
   {
-    name: 'A Rocky Adventure (going on a trip, outdoor, cheerful)',
+    name: 'A New Beginning (hopeful, main menu theme)',
     path: 'assets/musics/song-3.mp3'
   },
   {
-    name: 'Reminiscence (romance, sad)',
+    name: 'A Rocky Adventure (going on a trip, outdoor, cheerful)',
     path: 'assets/musics/song-4.mp3'
   },
   {
