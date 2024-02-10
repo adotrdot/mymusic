@@ -26,5 +26,9 @@ let songs = [
   {
     name: 'Maze (creepy, tense)',
     path: 'assets/musics/song-6.mp3'
+  },
+  {
+    name: 'Chasedown (upbeat)',
+    path: 'assets/musics/song-7.mp3'
   }
 ]
